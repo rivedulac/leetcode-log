@@ -1,4 +1,4 @@
-"""
+/*
 26. Remove Duplicates from Sorted Array
 https://leetcode.com/problems/remove-duplicates-from-sorted-array/
 Easy
@@ -13,7 +13,7 @@ of unique elements in `nums`.
 Date: 2025-07-09
 Runtime: 0ms, Beats 100.00%
 Memory: 6.26MB, Beats 60.38%
-"""
+*/
 
 func removeDuplicates(nums []int) int {
     i := 0

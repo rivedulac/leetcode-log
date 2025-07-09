@@ -1,4 +1,4 @@
-"""
+/*
 80. Remove Duplicates from Sorted Array II
 https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
 Medium
@@ -12,7 +12,7 @@ order of the elements should be kept the same.
 Date: 2025-07-09
 Runtime: 3ms, Beats 96.84%
 Memory: 7.30MB, Beats 34.39%
-"""
+*/
 
 func removeDuplicates(nums []int) int {
     i := 0
