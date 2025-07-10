@@ -14,6 +14,10 @@ Runtime: 3ms, Beats 96.84%
 Memory: 7.30MB, Beats 34.39%
 */
 
+package main
+
+import "fmt"
+
 func removeDuplicates(nums []int) int {
     i := 0
 
@@ -24,4 +28,10 @@ func removeDuplicates(nums []int) int {
         }
     }
     return i
+}
+
+func main() {
+    nums := []int{1, 1, 1, 2, 2, 3}
+    fmt.Println(removeDuplicates(nums))
+    fmt.Println(nums)
 }

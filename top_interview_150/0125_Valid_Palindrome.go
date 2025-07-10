@@ -15,7 +15,10 @@ Runtime: 0ms, Beats 100.00%
 Memory: 4.62MB, Beats 75.56%
 */
 
+package main
+
 import (
+    "fmt"
     "strings"
 )
 
@@ -44,4 +47,9 @@ func isPalindrome(s string) bool {
         r--
     }
     return true
+}
+
+func main() {
+    s := "A man, a plan, a canal: Panama"
+    fmt.Println(isPalindrome(s))
 }
